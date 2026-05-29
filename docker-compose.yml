@@ -1,0 +1,7 @@
+services:
+  json-tools:
+    build: .
+    container_name: json-tools
+    ports:
+      - "8234:80"
+    restart: unless-stopped
