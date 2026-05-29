@@ -3,5 +3,5 @@ services:
     build: .
     container_name: json-tools
     ports:
-      - "8234:80"
+      - "8235:80"
     restart: unless-stopped
